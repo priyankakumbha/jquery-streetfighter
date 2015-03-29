@@ -2,14 +2,16 @@ $(document).ready(function(){
     $('.ryu').mouseenter(function(){
         $('.ryu-still').hide();
         $('.ryu-ready').show();
+        
 
     })
     .mouseleave(function() {
         $('.ryu-still').show();
         $('.ryu-ready').hide();
+        
     })
     .mousedown(function(){
-        playHadouken();
+        
         $('.ryu-ready').hide();
         $('.ryu-throwing').show();
         $('.hadouken').finish().show().animate(
@@ -23,6 +25,8 @@ $(document).ready(function(){
     .mouseup(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
+        $('.ryu-cool').hide();
+         $('.ryu-still').hide();
     });
 
    
