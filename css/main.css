@@ -46,9 +46,9 @@
   display: none;
   float: left;
   position: absolute;
-
-    top: 150px;
-  
+  z-index:10;
+  top: 167px;
+  left:520px;
   
 }
 
